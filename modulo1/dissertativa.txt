@@ -1,1 +1,5 @@
-
+Para calcular a multiplicação de um número inteiro, pela tabuada do 9, aplicando a regra especial, primeiro lemos o número inteiro (n) entre 1 e 9. O cálculo é feito pela seguinte lógica:
+O primeiro dígito (dezena) é obtido subtraindo 1 do valor de n, ou seja, n-1.
+O segundo dígito (unidade) é obtido subtraindo n de 10, ou seja 10-n.
+Para obter o resultado final, multiplicamos o primeiro digito por 10 e somamos ao segundo dígito.
+Ex: (n-1)x10+(10-n) logo se usarmos o 7 como exemplo: (7-1)x10+(10-7) logo, o resultado é: 60+3 -> 63.
